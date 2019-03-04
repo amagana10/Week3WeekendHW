@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frag3FindUpdateOrDeleteEmployee">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/etEditEmpID"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter ID"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSearchEmployee"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Search for Id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEditEmpID" />
+
+    <EditText
+        android:id="@+id/etEditEmpName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:hint="Name"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSearchEmployee" />
+
+    <EditText
+        android:id="@+id/etEditEmpBday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Bithdate"
+        android:inputType="date"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEditEmpName" />
+
+    <EditText
+        android:id="@+id/etEditEmpWage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Wage"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEditEmpBday" />
+
+    <EditText
+        android:id="@+id/etEditEmpHireDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Hire Date"
+        android:inputType="date"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEditEmpWage" />
+
+    <EditText
+        android:id="@+id/etEditEmpImage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Image"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEditEmpHireDate" />
+
+    <Button
+        android:id="@+id/btnEditEmployee"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Edit Employee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEditEmpImage" />
+
+    <Button
+        android:id="@+id/btnDeleteEmployee"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+        android:text="Delete Employee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEditEmployee" />
+
+
+</android.support.constraint.ConstraintLayout>

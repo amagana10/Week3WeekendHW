@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NavTest</string>
+    <string name="title_home">Fragmet1</string>
+    <string name="title_dashboard">Fragment2</string>
+    <string name="title_notifications">Fragmen3</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment1">Hello this is fragment 1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment2">Hello this is fragment 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment3">Hello this is fragment 3</string>
+</resources>

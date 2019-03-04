@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frag2InsertNewEmployee">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/etNewEmpName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etNewEmpBday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Bithdate"
+        android:inputType="date"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNewEmpName" />
+
+    <EditText
+        android:id="@+id/etNewEmpWage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Wage"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNewEmpBday" />
+
+    <EditText
+        android:id="@+id/etNewEmpHireDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Hire Date"
+        android:inputType="date"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNewEmpWage" />
+
+    <EditText
+        android:id="@+id/etNewEmpImage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="image"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNewEmpHireDate" />
+
+    <Button
+        android:id="@+id/btnNewEmployee"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:text="Add Employee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNewEmpImage" />
+
+</android.support.constraint.ConstraintLayout>
